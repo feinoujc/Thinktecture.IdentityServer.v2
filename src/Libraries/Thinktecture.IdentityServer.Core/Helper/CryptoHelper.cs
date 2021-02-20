@@ -55,7 +55,7 @@ namespace Thinktecture.IdentityServer.Helper
         
         // from OWASP : https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet
         const int StartYear = 2000;
-        const int StartCount = 1000;
+        const int StartCount = 10;
         internal static int GetIterationsFromYear(int year)
         {
             if (year > StartYear)
